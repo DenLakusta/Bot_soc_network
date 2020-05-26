@@ -21,7 +21,7 @@ Example config:<br />
 ```[users list]```<br />
 ```user_list=users.txt```<br />
 
-2. According to example config and ```users.txt``` file, Bot will sign up for each user (no mre then ```number_of_users``` parameter).
+2. Based on config rules and ```users.txt``` file, Bot will sign up for each user (no mre then ```number_of_users``` parameter).
 3. Create random number of posts (no more then ```max_posts_per_user``` parameter)
 4. After all posts will be created, Bot will get total amount of posts (list) and using parameter ```max_likes_per_user``` will randomly like posts from list.
 
